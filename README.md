@@ -57,7 +57,7 @@ REDIS_URL=redis://localhost:6379/0
 CELERY_BROKER_URL=redis://localhost:6379/0
 CELERY_RESULT_BACKEND=redis://localhost:6379/0
 ```
-
+Redis и селери можно указать и в setting.py
 ### 5. Настройте базу данных
 
 Убедитесь, что у вас настроена база данных PostgreSQL и доступ к ней через указанные данные в `.env`.
